@@ -1,0 +1,23 @@
+.ls-op-admin .ls-op-intro{font-size:14px;color:#50575e;max-width:760px}
+.ls-op-admin .ls-op-filter{display:flex;gap:10px;align-items:center;margin:12px 0}
+.ls-op-admin .ls-op-table{margin-top:8px}
+.ls-op-admin .ls-op-box{background:#fff;border:1px solid #dcdcde;border-radius:10px;padding:16px 20px;margin:16px 0}
+.ls-op-admin .ls-op-box h2{margin-top:0}
+.ls-op-admin .ls-op-cols{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+.ls-op-admin .ls-op-col{flex:2 1 520px;min-width:0}
+.ls-op-admin .ls-op-side{flex:1 1 300px}
+.ls-op-admin .ls-op-sub{font-size:14px;font-weight:400;color:#50575e;margin-left:8px}
+.ls-op-admin .ls-op-lib{margin:0 0 14px;padding:0;list-style:none}
+.ls-op-admin .ls-op-lib li{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid #f0f0f1}
+.ls-op-admin .ls-op-libtxt{flex:1 1 auto}
+.ls-op-badge{width:44px;height:44px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#333;flex:0 0 auto}
+.ls-op-admin .ls-op-inline{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ls-op-admin .ls-op-inline select{max-width:420px}
+.ls-op-admin .ls-op-code{font:700 26px/1.2 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;background:#E7EEF4;color:#3B5A74;border-radius:10px;padding:10px 14px;display:inline-block;margin:4px 0 10px}
+.ls-op-pill{display:inline-block;font-size:12px;font-weight:600;border-radius:999px;padding:2px 10px;background:#f0f0f1;color:#50575e}
+.ls-op-pill.ok{background:#E3EEDF;color:#2F5A26}
+.ls-op-pill.new{background:#EAD6A8;color:#5a4320}
+.ls-op-danger{color:#b32d2e!important}
+.ls-op-rechten td:not(:first-child),.ls-op-rechten th:not(:first-child){text-align:center;width:130px}
+.ls-op-yes{color:#2F5A26;font-weight:700;font-size:16px}
+.ls-op-no{color:#a7aaad}
