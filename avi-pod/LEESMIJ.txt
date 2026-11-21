@@ -1,0 +1,33 @@
+AVI-boekjes drukklaar maken (print-on-demand)
+=============================================
+
+Wat je nodig hebt
+- Python 3 met pypdf en reportlab:  pip3 install pypdf reportlab
+- De AVI-boekjes als PDF in één map (de A4-thuisafdrukversie volstaat)
+
+Gebruik (Terminal op de Mac)
+  python3 avi_pod.py "map met AVI-boekjes" -o drukklaar                    -> voor Lulu
+  python3 avi_pod.py "map met AVI-boekjes" -o drukklaar --modus zelfomslag -> voor Peecho of een drukker
+
+Wat eruit komt
+- Lulu:        <naam>_binnenwerk.pdf  +  <naam>_cover.pdf (achterkant + voorkant in één stuk)
+- Zelfomslag:  <naam>_drukklaar.pdf   (voorkant, binnenwerk, achterkant)
+- overzicht.csv: per boekje titel, niveau, aantal pagina's en toegevoegde notitiepagina's
+
+Wat het script doet
+- Eindformaat A5 (148 x 210 mm) met 3,175 mm afloop rondom; TrimBox en BleedBox correct ingesteld
+- Pagina 1 wordt de voorkant, de rest het binnenwerk
+- Tekst blijft vectorieel en scherp; schaal 0,735 (20 pt op A4 wordt 14,7 pt)
+- Vult aan tot een viervoud met "Notities"-pagina's vóór de laatste pagina (nodig voor nietjes)
+- Maakt automatisch een achterkant met titel, niveau en praktijkgegevens,
+  met een vrije zone rechtsonder voor een eventuele streepjescode
+- Titel en niveau komen uit de bestandsnaam, bv. AVI_M3_boekje_1_De_verloren_pet.pdf
+  -> "De verloren pet", "AVI M3 · boekje 1"
+
+Ander formaat of afloop
+  --formaat 170x240   --afloop 3
+
+Controleer vóór je bestelt
+- Tekst staat minstens 10 mm van de rand (er gaat ±3 mm verloren aan de afloop)
+- Bestel eerst één proefexemplaar per drukker en controleer kleur, papier en nietjes
+- Vraag bij de drukker het minimum en maximum aantal pagina's voor geniete boekjes na
