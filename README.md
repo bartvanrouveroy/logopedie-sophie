@@ -14,6 +14,7 @@ Voorbeeldsite en hulpmiddelen voor de nieuwe website van Logopedie Sophie (Hasse
 ## Demo's
 
 - Voorbeeldsite (één HTML-bestand): https://bartvanrouveroy.github.io/logopedie-sophie/
+- Voorstel 2, rustige fotografische stijl: https://bartvanrouveroy.github.io/logopedie-sophie/voorstel-2/
 - WordPress-demo in WordPress Playground: https://playground.wordpress.net/?blueprint-url=https://bartvanrouveroy.github.io/logopedie-sophie/wp/blueprint.json
 
 ## Voorbeeldaccounts in het oefenportaal (HTML-voorbeeldsite)
